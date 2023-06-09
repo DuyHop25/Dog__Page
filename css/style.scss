@@ -1,0 +1,198 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    font-family: "Nunito Sans", sans-serif;
+    line-height: 1.5;
+}
+p {
+    letter-spacing: 1px;
+    color: #999;
+}
+
+header{
+    background-image: url("/C04-doghome_TruongDuyHop/img/1.jpg"); 
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    h1#logo{
+        display: inline-block;
+        margin-left: 50px;
+    }
+    nav{
+        float: right;
+    }
+    nav ul {
+        margin: 0px;
+        padding: 31px 78px 0px 0px;
+    }
+    nav li{
+        list-style-type: none;
+        float: left;
+        margin: 0 5px;
+        padding: 20px;
+        border-radius: 5px;
+    }
+    nav li#active{
+        background-color: white;
+        color:black;
+    }
+    
+    div#main-header{
+        margin: 13% auto;
+        text-align: center;
+        h2{
+            font-size: 50px;
+            margin-bottom: 10px;
+        }
+        p{
+            color: white;
+            padding: 0px 34%;
+            text-indent: 39px;
+        }
+        a{
+            color: white;
+            text-decoration: none;
+            border: solid 2px white;
+            padding: 10px;
+            border-radius: 5px;
+            margin-top: 40px;
+            display: inline-block;
+        }
+    }
+    div#label-list{
+        padding-top: 5px;
+        ul{
+            display: flex;
+            justify-content: center;
+            justify-items: center;
+            padding-right: 37px;
+            li{
+                display: inline-block;
+                background: white;
+                padding: 5px;
+                border-radius: 50%;
+                margin: auto 8px;
+                opacity: 0.7;
+            }
+        }
+    }
+}
+
+
+#welcome{
+    padding: 5% 10%;
+    text-align: center;
+    h2{
+        margin: 0px;
+        font-size: 3em;
+    }
+    p{
+        color: #999;
+        margin: 50px 14%;
+    }
+    img{
+        width: 100%;
+    }
+}
+
+#WhatWeDo{
+    padding: 5% 10%;
+    h2{
+        height: 55px;
+        text-align: center;
+        font-size: 3rem;
+    }
+    div.container{
+        display: flex;  
+        flex-wrap:wrap;
+        justify-content: space-around;  
+        margin-top: 5%;
+        div{
+            width: 25%;
+            height: 300px;
+            text-align: center;
+            margin: 30px auto;
+            img{
+                border-radius: 50%; 
+            }
+            h3{
+
+            }
+            p{
+                margin: 15px auto;
+                width: 80%;
+            }
+
+        }      
+    }
+}
+
+#Statistics{
+    background-image: url("/C04-doghome_TruongDuyHop/img/bg.jpg");
+    padding: 50px;
+    color: white;
+    background-size: cover;
+    height: 60vh;
+    text-align: center;
+    h2{
+        font-size: 5em;
+    }
+    div#container{
+        display: flex;
+        justify-content: space-around;
+        div#item{
+            width: 25%;
+            h3{
+                margin: 0px;    
+                font-size: 5rem;   
+            }
+            p{
+                margin: 0px;
+                color: white;
+            }
+        }
+    }
+}
+
+#Services{
+    padding: 100px;
+    display: flex;
+    justify-content: space-around;
+    background-color: #f8f9fa;
+    div#left{
+        padding-left: 70px;
+        width: 25%;
+        h2{
+            margin-top: 15px;
+            font-size: 2.5em;
+        }
+        p{
+            line-height: 2.2;
+        }
+    }
+    div#right{
+        width: 70%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        div#item{
+            padding: 50px 0px;
+            text-align: center;
+            margin: 20px auto;
+            background-color: white;    
+            i{
+                color: #ff9900;
+                font-size: 3em;
+            }
+            h3{
+                font-size: 2em;
+            }
+            p{
+                padding: 0px 14%;
+            }
+        }
+    }
+}
