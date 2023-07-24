@@ -1,143 +1,404 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="fontawesome/css/fontawesome.min.css">
-    <link rel="stylesheet" href="fontawesome/css/all.css">
-    <title>C04</title>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dog Page v1</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
 </head>
+
 <body>
+    <!-- header start  -->
     <header>
         <h1 id="logo">Dog Home</h1>
         <nav>
+            <label for="">Menu</label>
             <ul>
-                <li id="active">Home</li>
-                <li>Statistics</li>
-                <li>Services</li>
-                <li>Dropdown</li>
-                <li>Contact Us</li>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Gallery</a></li>
+                <li class="dropdown">
+                    <a id="drop-btn" href="#">Dropdown <span class="fa fa-angle-down"></span></a>
+                </li>
+                <li><a href="#">Contact Us</a></li>
             </ul>
         </nav>
         <div id="main-header">
             <h2>HOW TO TRAIN YOUR DOG</h2>
-            <p>Sed ut perspiciatis unde omnis iste natus error sit
-                acntium doemque laudantium, totam rem aperiam eaque ipsa
-                quae ab illo.</p>
-            <a href="">Read More</a>
+            <p>
+                Sed ut perspiciatis unde omnis iste natus error sit <br />
+                acntium doemque laudantium, totam rem aperiam eaque ipsa <br />
+                quae ab illo.
+            </p>
+            <a>Read More</a>
         </div>
         <div id="label-list">
-            <ul>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-            </ul>
+            <label for=""></label>
+            <label for=""></label>
+            <label for=""></label>
+            <label for=""></label>
         </div>
-    </header>   
+    </header>
+    <!-- header end  -->
+
+    <!-- welcome start-->
     <section id="welcome">
         <h2>Welcome to Our Website</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-        <img src="./img/about2.jpg" alt="">
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+            veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+            commodo consequat.
+        </p>
+        <img src="./img/about2.jpg" alt="" />
     </section>
-    <section id="WhatWeDo">
+    <!-- welcome end-->
+
+    <!-- what-we-do start-->
+    <section id="what-we-do">
         <h2>What we do</h2>
         <div class="container">
-            <div>
-                <img src="./img/wh3.jpg" alt="">
+            <div class="item">
+                <img src="./img/wh1.jpg" alt="" />
                 <h3>House & Crate</h3>
-                <p>Sit amet mattis quam, sit amet excepteur sint occaecat cupidatat.</p>
-            </div> 
-            <div>
-                <img src="./img/wh3.jpg" alt="">
-                <h3>House & Crate</h3>
-                <p>Sit amet mattis quam, sit amet excepteur sint occaecat cupidatat.</p>
+                <p>
+                    Sit amet mattis quam, sit amet excepteur sint occaecat cupidatat.
+                </p>
             </div>
-            <div>
-                <img src="./img/wh3.jpg" alt="">
-                <h3>House & Crate</h3>
-                <p>Sit amet mattis quam, sit amet excepteur sint occaecat cupidatat.</p>
+            <div class="item">
+                <img src="./img/wh2.jpg" alt="" />
+                <h3>Leash Training</h3>
+                <p>
+                    Sit amet mattis quam, sit amet excepteur sint occaecat cupidatat.
+                </p>
             </div>
-            <div>
-                <img src="./img/wh3.jpg" alt="">
-                <h3>House & Crate</h3>
-                <p>Sit amet mattis quam, sit amet excepteur sint occaecat cupidatat.</p>
+            <div class="item">
+                <img src="./img/wh3.jpg" alt="" />
+                <h3>Clicker Training</h3>
+                <p>
+                    Sit amet mattis quam, sit amet excepteur sint occaecat cupidatat.
+                </p>
             </div>
-            <div>
-                <img src="./img/wh3.jpg" alt="">
-                <h3>House & Crate</h3>
-                <p>Sit amet mattis quam, sit amet excepteur sint occaecat cupidatat.</p>
+            <div class="item">
+                <img src="./img/wh4.jpg" alt="" />
+                <h3>Basic Commands</h3>
+                <p>
+                    Sit amet mattis quam, sit amet excepteur sint occaecat cupidatat.
+                </p>
             </div>
-            <div>
-                <img src="./img/wh3.jpg" alt="">
+            <div class="item">
+                <img src="./img/wh3.jpg" alt="" />
                 <h3>House & Crate</h3>
-                <p>Sit amet mattis quam, sit amet excepteur sint occaecat cupidatat.</p>
+                <p>
+                    Sit amet mattis quam, sit amet excepteur sint occaecat cupidatat.
+                </p>
             </div>
-            <div>
-                <img src="./img/wh3.jpg" alt="">
-                <h3>House & Crate</h3>
-                <p>Sit amet mattis quam, sit amet excepteur sint occaecat cupidatat.</p>
+            <div class="item">
+                <img src="./img/wh4.jpg" alt="" />
+                <h3>Basic Commands</h3>
+                <p>
+                    Sit amet mattis quam, sit amet excepteur sint occaecat cupidatat.
+                </p>
             </div>
-            <div>
-                <img src="./img/wh3.jpg" alt="">
+            <div class="item">
+                <img src="./img/wh1.jpg" alt="" />
                 <h3>House & Crate</h3>
-                <p>Sit amet mattis quam, sit amet excepteur sint occaecat cupidatat.</p>
+                <p>
+                    Sit amet mattis quam, sit amet excepteur sint occaecat cupidatat.
+                </p>
+            </div>
+            <div class="item">
+                <img src="./img/wh2.jpg" alt="" />
+                <h3>Leash Training</h3>
+                <p>
+                    Sit amet mattis quam, sit amet excepteur sint occaecat cupidatat.
+                </p>
             </div>
         </div>
     </section>
-    <section id="Statistics">
+    <!-- what-we-do end-->
+
+    <!--statistics start-->
+    <section id="statistics">
         <h2>Our Statistics</h2>
-        <div id="container">
-            <div id="item">
-                <h3>8</h3>
+        <div class="container">
+            <div>
+                <p>8</p>
                 <p>Years of Experience</p>
             </div>
-            <div id="item">
-                <h3>600</h3>
+            <div>
+                <p>600</p>
                 <p>Contest attended</p>
             </div>
-            <div id="item">
-                <h3>300</h3>
+            <div>
+                <p>300</p>
                 <p>Happy Customer</p>
             </div>
-            <div id="item">
-                <h3>30</h3>
+            <div>
+                <p>30</p>
                 <p>Camps</p>
             </div>
         </div>
     </section>
-    <section id="Services">
-        <div id="left">
-            <h2>Pet Services</h2>
-            <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id.</p>
-            <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabofdfd dsdsd.</p>
-        </div>
-        <div id="right">
-            <div id="item">
-                <i class="fas fa-expand-alt"></i>
-                <h3>Grooming</h3>
-                <p>Integer sit amet mattis quam, sit amet ultricies velit.</p>
-            </div>
-            <div id="item">
-                <i class="fas fa-expand-alt"></i>
-                <h3>Grooming</h3>
-                <p>Integer sit amet mattis quam, sit amet ultricies velit.</p>
-            </div>
-            <div id="item">
-                <i class="fas fa-expand-alt"></i>
-                <h3>Grooming</h3>
-                <p>Integer sit amet mattis quam, sit amet ultricies velit.</p>
-            </div>
-            <div id="item">
-                <i class="fas fa-expand-alt"></i>
-                <h3>Grooming</h3>
-                <p>Integer sit amet mattis quam, sit amet ultricies velit.</p>
-            </div>
+    <!--statistics end-->
 
+    <!--  services start-->
+    <section id="services" class="container">
+        <div class="left">
+            <h2>Pet Services</h2>
+            <p>
+                Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+                officia deserunt mollit anim id.
+            </p>
+            <p>
+                Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+                accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae
+                ab illo inventore veritatis et quasi architecto beatae vitae dicta
+                sunt explicabofdfd dsdsd.
+            </p>
+        </div>
+        <div class="item item-1">
+            <div class="item__content">
+                <div>
+                    <i class="fas fa-expand-alt"></i>
+                </div>
+                <h3>Grooming</h3>
+                <p>Integer sit amet mattis quam, sit amet ultricies velit.</p>
+            </div>
+        </div>
+
+        <div class="item item-2">
+            <div class="item__content">
+                <div>
+                    <i class="fab fa-github"></i>
+                </div>
+                <h3>Grooming</h3>
+                <p>Integer sit amet mattis quam, sit amet ultricies velit.</p>
+            </div>
+        </div>
+
+        <div class="item item-3">
+            <div class="item__content">
+                <div>
+                    <i class="far fa-heart"></i>
+                </div>
+                <h3>Grooming</h3>
+                <p>Integer sit amet mattis quam, sit amet ultricies velit.</p>
+            </div>
+        </div>
+
+        <div class="item item-4">
+            <div class="item__content">
+                <div>
+                    <i class="fas fa-medkit"></i>
+                </div>
+                <h3>Grooming</h3>
+                <p>Integer sit amet mattis quam, sit amet ultricies velit.</p>
+            </div>
         </div>
     </section>
-    <script src="fontawesome/js/fontawesome.min.js"></script>
+    <!--  services end-->
+
+    <!--  Testimonials start-->
+    <section id="Testimonials">
+        <h2>Testimonials</h2>
+        <div class="container">
+            <div class="item">
+                <p>
+                    "Sed ut perspiciatis unde omnis iste natus error sit volup tatem
+                    accus antium dolore tium."
+                </p>
+                <img src="./img/te1.jpg" alt="" />
+                <h3>- LOREM ISUM</h3>
+            </div>
+            <div class="item">
+                <p>
+                    "Sed ut perspiciatis unde omnis iste natus error sit volup tatem
+                    accus antium dolore tium."
+                </p>
+                <img src="./img/te2.jpg" alt="" />
+                <h3>- UNDE OMNIS</h3>
+            </div>
+            <div class="item">
+                <p>
+                    "Sed ut perspiciatis unde omnis iste natus error sit volup tatem
+                    accus antium dolore tium."
+                </p>
+                <img src="./img/te3.jpg" alt="" />
+                <h3>- UNDE OMNIS</h3>
+            </div>
+        </div>
+    </section>
+    <!--  Testimonials end-->
+
+    <!--  Our_Blog start-->
+    <section id="Our_Blog">
+        <h2>Our Blog</h2>
+        <div class="container">
+            <div class="item">
+                <img src="./img/b1.jpg" alt="" />
+                <div class="content">
+                    <a href="">At vero eos</a>
+                    <p>Cras ultricies ligula sed magna dictum porta auris blandita.</p>
+                    <a href="" class="readmore">Read more</a>
+                </div>
+            </div>
+
+            <div class="item">
+                <img src="./img/b2.jpg" alt="" />
+                <div class="content">
+                    <a href="">Tccus et ius</a>
+                    <p>Cras ultricies ligula sed magna dictum porta auris blandita.</p>
+                    <a href="" class="readmore">Read more</a>
+                </div>
+            </div>
+
+            <div class="item item__last">
+                <div id="blog">
+                    <a href="">Sed do eiusmod tempor auris incididunt ut.</a>
+                    <p>Feb 06 2019</p>
+                </div>
+                <div id="blog">
+                    <a href="">Labore et dolore magna aliqua ultricies ligula.</a>
+                    <p>Feb 07 2019</p>
+                </div>
+                <div id="blog">
+                    <a href="">Nemo enim aspernatur aut odit aut fugit fdsdsd.</a>
+                    <p>Feb 13 2019</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--  Our_Blog end-->
+
+    <!--  googleMap start-->
+    <div id="googleMap">
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7838.59918968012!2d106.69475517408719!3d10.788350508487023!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x317528ca99339b29%3A0xa10097f196f43f19!2zMjVhIMSQxrDhu51uZyBNYWkgVGjhu4sgTOG7sXUsIMSQYSBLYW8sIFF14bqtbiAxLCBUaMOgbmggcGjhu5EgSOG7kyBDaMOtIE1pbmgsIFZp4buHdCBOYW0!5e0!3m2!1svi!2s!4v1641753994619!5m2!1svi!2s"
+            width="100%" height="450" style="border: 0" allowfullscreen="" loading="lazy"></iframe>
+    </div>
+    <!--  googleMap end-->
+
+    <!-- Contact_Us start -->
+    <section id="Contact_Us">
+        <h3>Contact Us</h3>
+        <div class="container">
+            <div class="left">
+                <p id="info">Contact Info</p>
+
+                <div id="item">
+                    <div id="icon">
+                        <span><i class="fas fa-home"></i></span>
+                    </div>
+                    <div id="content">
+                        <p id="cap">Visit us</p>
+                        <p>Parma Via Modena,BO, Italy Lorem ipsum dolor.</p>
+                    </div>
+                </div>
+
+                <div id="item">
+                    <div id="icon">
+                        <span><i class="far fa-envelope"></i> </span>
+                    </div>
+                    <div id="content">
+                        <p id="cap">Mail us</p>
+                        <p>info@example.com</p>
+                    </div>
+                </div>
+
+                <div id="item">
+                    <div id="icon">
+                        <span><i class="fas fa-phone-alt"></i></span>
+                    </div>
+                    <div id="content">
+                        <p id="cap">Call us</p>
+                        <p>+18044261149</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="right">
+                <form action="">
+                    <div id="text">
+                        <input type="text" required placeholder="Name" />
+                    </div>
+                    <div id="text">
+                        <input type="mail" required placeholder="Email" />
+                    </div>
+                    <div id="textarea">
+                        <textarea name="" id="" cols="30" rows="10" placeholder="Message......."></textarea>
+                    </div>
+                    <div id="submit">
+                        <button type="submit" class="ctu-right-btn" fdprocessedid="6qgy6r">
+                            Submit
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+    <!-- Contact_Us  end-->
+
+    <!-- footer start -->
+    <footer>
+        <div class="container">
+            <div class="item">
+                <p class="title">ABOUT US</p>
+                <p>
+                    Sed ut perspiciatis unde omnis iste natus error sit.Error sit antium
+                    dolorts remq hymue laud.
+                </p>
+            </div>
+            <div class="item">
+                <p class="title">WHO WE ARE</p>
+                <p>
+                    Error sit antium dolorts remq hymue laud.Sed ut perspiciatis unde
+                    omnis iste natus error sit.
+                </p>
+            </div>
+            <div class="item item__3">
+                <p class="title">ABOUT US</p>
+                <p><span>Phone</span></p>
+                <p>+121 098 8907 9987</p>
+                <p><span>Email</span></p>
+                <p>info@example.com</p>
+                <p><span>Location</span></p>
+                <p>Honey Avenue, New York City</p>
+            </div>
+            <div class="item">
+                <p class="title">NEWSLETTER</p>
+                <p>
+                    Be the first to get latest news and offers! Sed ut perspiciatis unde
+                    omnis.
+                </p>
+                <div class="form">
+                    <form action="">
+                        <input type="email" value="" placeholder="Enter your email.." />
+                        <button type="submit" class="ctu-right-btn">Submit</button>
+                    </form>
+                </div>
+                <p class="title">CONNECT WITH SOCIAL</p>
+                <div id="social">
+                    <span>
+                        <i class="fab fa-facebook-f" id="fb"></i>
+                    </span>
+                    <span>
+                        <i class="fab fa-twitter" id="tw"></i>
+                    </span>
+                    <span>
+                        <i class="fab fa-dribbble" id="dribble"></i>
+                    </span>
+                    <span>
+                        <i class="fab fa-google-plus-g" id="gg"></i>
+                    </span>
+                </div>
+            </div>
+        </div>
+    </footer>
 </body>
+
 </html>
